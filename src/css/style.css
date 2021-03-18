@@ -1,0 +1,77 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
+  background-color: #badc58;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App .Counter {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.App .Counter .Display {
+  width: 100%;
+  height: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.App .Counter .Display p {
+  background-color: #30336b;
+  color: white;
+  margin: 0px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.App .Counter .Tab {
+  width: 100%;
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App .Counter .Tab__btn {
+  border: none;
+  border-radius: 10px;
+  width: 50%;
+  padding: 10px;
+  font-size: 25px;
+  margin: 10px;
+  background-color: #fbc531;
+}
+/*# sourceMappingURL=style.css.map */
